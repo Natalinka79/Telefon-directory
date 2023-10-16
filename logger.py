@@ -14,10 +14,10 @@ def input_data():
                     ))
     if var == 1:
         with open("data_first_variant.csv", "r", encoding="utf-8") as file:   
-            file.write( f'{name}\n'
-                        f'{surname}\n'
-                        f'{phone}\n'
-                        f'{address}\n\n')
+            file.write(f'{name}\n'
+                       f'{surname}\n'
+                       f'{phone}\n'
+                       f'{address}\n\n')
     else:  
         with open("data_second_variant.csv", "a", encoding="utf-8") as file:   
             file.write(f'{name};{surname};{phone};{address}\n\n')    
